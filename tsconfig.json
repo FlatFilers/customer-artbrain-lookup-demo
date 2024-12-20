@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    /* Base Options: */
+    "allowJs": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "lib": ["ES2022"],
+    "moduleDetection": "force",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "target": "ES2022",
+    "types": ["node", "jest"],
+
+    /* Strictness */
+    "noImplicitOverride": true,
+    "noUncheckedIndexedAccess": true,
+    "strict": true,
+
+    /* Transpilation */
+    "module": "Preserve",
+    "noEmit": true
+  },
+  /* Exclusions/Inclusions */
+  "exclude": ["node_modules", ".flatfile"]
+}

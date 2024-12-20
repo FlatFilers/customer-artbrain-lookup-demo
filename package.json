@@ -1,0 +1,38 @@
+{
+  "name": "artbrain-lookup",
+  "description": "",
+  "version": "0.1.0",
+  "author": "",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "main": "app/index.ts",
+  "scripts": {
+    "dev": "flatfile develop app/index.ts",
+    "deploy": "flatfile deploy app/index.ts",
+    "format": "prettier --write .",
+    "test": "jest --maxWorkers=3"
+  },
+  "dependencies": {
+    "@flatfile/api": "latest",
+    "@flatfile/listener": "latest",
+    "@flatfile/plugin-job-handler": "latest",
+    "@flatfile/plugin-record-hook": "latest",
+    "@flatfile/plugin-space-configure": "latest",
+    "@flatfile/plugin-xlsx-extractor": "latest",
+    "flatfile": "latest"
+  },
+  "devDependencies": {
+    "@types/jest": "latest",
+    "@types/node": "^20",
+    "ts-jest": "latest",
+    "ts-node": "latest",
+    "typescript": "^5",
+    "@flatfile/listener-driver-pubsub": "latest",
+    "@flatfile/utils-testing": "latest",
+    "dotenv-flow": "latest",
+    "jest": "latest",
+    "prettier": "latest"
+  }
+}
